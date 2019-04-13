@@ -77,7 +77,78 @@ $q = null;
 </table>
 <center><button type="submit" name="Insert">Insert</button><button type="submit" name="Update">Update</button></center>
 </form>
-
+  
+  <hr  width="25%" align="left">
+  <p>Dosage chart for INR target 2.5</p>
+  <table width="25%">
+    <tr>
+      <td>Blood results</td>
+      <td>Action</td>
+      <td>Next Test</td>
+    </tr>
+    <tr bgcolor="red">
+      <td>Over 5</td>
+      <td>See doctor</td>
+      <td>as advised</td>
+    </tr>
+    <tr bgcolor="yellow">
+      <td>3.1 - 4.9</td>
+      <td>Decrease dose by 1/2 mg</td>
+      <td>1 week</td>
+    </tr>
+    <tr bgcolor="green">
+      <td>2 - 3</td>
+      <td>Remain on same dose</td>
+      <td>2 weeks</td>
+    </tr>
+    <tr bgcolor="yellow">
+      <td>1.6 - 1.9</td>
+      <td>Increase dose by 1/2 mg</td>
+      <td>1 week</td>
+    </tr>
+    <tr bgcolor="red">
+      <td>Under 1.5</td>
+      <td>See doctor</td>
+      <td>as advised</td>
+    </tr>
+  </table>
+  <hr  width="25%" align="left">
+  <p>Dosage chart for INR target 3.5</p>
+  <table width="25%">
+    <tr>
+      <td>Blood results</td>
+      <td>Action</td>
+      <td>Next Test</td>
+    </tr>
+    <tr bgcolor="red">
+      <td>Over 5</td>
+      <td>See doctor</td>
+      <td>as advised</td>
+    </tr>
+    <tr bgcolor="yellow">
+      <td>4.1 - 4.9</td>
+      <td>Decrease dose by 1 mg</td>
+      <td>1 week</td>
+    </tr>
+    <tr bgcolor="green">
+      <td>3 - 4</td>
+      <td>Remain on same dose</td>
+      <td>2 weeks</td>
+    </tr>
+    <tr bgcolor="yellow">
+      <td>1.6 - 2.9</td>
+      <td>Increase dose by 1 mg</td>
+      <td>1 week</td>
+    </tr>
+    <tr bgcolor="red">
+      <td>Under 1.5</td>
+      <td>See doctor</td>
+      <td>as advised</td>
+    </tr>
+  </table>
+      
+  <p><a href="https://www.nice.org.uk/guidance/dg14/resources/selfmonitoring-dosage-algorithm-pdf-184803158">NICE Guidelines</a></p>
+  
 <p><a href="logout.php">Logout</a></p>
 <?php } ?>
 </body>
